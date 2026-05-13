@@ -6,7 +6,7 @@ Original Dream Realm Design content:
 All original text, branding, logos, artwork, images, video, portfolio materials, and other custom content are © Dream Realm Design. All rights reserved unless otherwise stated.
 
 
-This site is based on the "Massively" template by HTML5 UP.
+This site is based on the "Forty" template by HTML5 UP.
 
 Template/design:
 Massively by HTML5 UP
