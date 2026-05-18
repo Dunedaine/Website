@@ -1452,6 +1452,25 @@ input, select, textarea {
 				display: block;
 			}
 
+/* Thumbnail Hover Highlight - No Border */
+.gallery article .image {
+	overflow: hidden;
+	transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.gallery article .image img {
+	transition: transform 0.2s ease-in-out;
+}
+
+.gallery article .image:hover {
+	box-shadow: 0 0 1.25em rgba(9, 60, 22, 0.45), 0 0.35em 0.9em rgba(0, 0, 0, 0.25);
+	transform: translateY(-0.15em);
+}
+
+.gallery article .image:hover img {
+	transform: scale(1.04);
+}
+
 			.gallery article:nth-last-child(1n) {
 				-moz-transition-delay: 0.05s;
 				-webkit-transition-delay: 0.05s;
