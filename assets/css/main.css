@@ -2191,7 +2191,7 @@ input, select, textarea {
 				}
 
 				.main.style2 .button.anchored {
-					display: none;
+					display: block;
 				}
 
 				.main.style2 .content {
@@ -2372,3 +2372,28 @@ input, select, textarea {
 			}
 
 		}
+
+/* Site Fixes: section advance arrows + Development spacing */
+
+#work {
+	position: relative;
+	padding-bottom: 7em;
+}
+
+#work > .button.anchored {
+	z-index: 2;
+}
+
+@media screen and (max-width: 736px) {
+	.main.style2 {
+		padding-bottom: 7em;
+	}
+
+	.main.style2 .button.anchored {
+		display: block;
+	}
+
+	#work {
+		padding-bottom: 7em;
+	}
+}
