@@ -1897,7 +1897,7 @@ input, select, textarea {
 /* Social Icon Highlights */
 #header > ul.icons a:hover {
 	color: #ffffff;
-	background-color: #093c16;
+	background-color: #617165;
 }
 			
 
@@ -1934,7 +1934,7 @@ input, select, textarea {
 			/* Menu Hover Highlights */
 				#header nav ul li a:hover {
 				color: #ffffff;
-				background-color: #093c16;
+				background-color: #617165;
 				}
 
 		@media screen and (max-width: 736px) {
